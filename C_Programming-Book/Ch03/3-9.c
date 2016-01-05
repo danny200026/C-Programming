@@ -1,13 +1,11 @@
 #include <stdio.h>
 main()
 {
-      int i, j, k;
+      int i;
 
+      printf("%d\n", sizeof(i));     
       scanf("%d", &i);
-      scanf("%d", &j);
-      k = i + 4*j;
-      
-      printf("%d\n", k);
-      k = (i + 4) * j;
-      printf("%d\n", k);
+      printf("%d\n", i);
+      i++;
+      printf("%d\n", i);
 }

@@ -1,13 +1,14 @@
 #include <stdio.h>
 main()
 {
-      int i, j, k;
+      int i = 1;
+      int j = 2;
+      int k = 3;
       
       scanf("%d", &i);
-      scanf("%d", &j);
+      k = j = i;
       
-      k = i + j;
-      printf("%d\n", k);
-      k = i - j;
+      printf("%d\n", i);
+      printf("%d\n", j);
       printf("%d\n", k);
 }

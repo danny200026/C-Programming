@@ -2,9 +2,12 @@
 main()
 {
       int i;
-      int j;
+      int k;
       
       scanf("%d", &i);
-      j = -i;
-      printf("%d\n", j);      
+      k = i / 10;
+      printf("%d\n", k);
+
+      k = i % 10;
+      printf("%d\n", k);      
 }

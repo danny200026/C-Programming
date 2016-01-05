@@ -1,13 +1,17 @@
-#include <stdio.h>
+# include <stdio.h>
 main()
 {
-      int i = 1;
-      int j = 2;
-      int k = 3;
+      int i;
+      int j;
+      int temp;
       
       scanf("%d", &i);
-      k = j = i;
+      scanf("%d", &j);
+      
+      temp = i;
+      i = j;
+      j = temp;
+      
       printf("%d\n", i);
       printf("%d\n", j);
-      printf("%d\n", k);
-}
+}  

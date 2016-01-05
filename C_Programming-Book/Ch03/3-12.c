@@ -1,10 +1,16 @@
 #include <stdio.h>
 main()
 {
-      int year;
+      int i = 3;
+      int j = 0;
       int k;
       
-      scanf("%d", &year);
-      k = (year % 400 == 0) || ((year % 4 == 0) && (year % 100 != 0));
+      k = (i && j);
+      printf("%d\n", k);
+      
+      k = (i || j);
+      printf("%d\n", k);
+      
+      k = !i;
       printf("%d\n", k);
 }

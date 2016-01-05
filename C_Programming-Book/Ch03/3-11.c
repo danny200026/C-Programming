@@ -1,16 +1,13 @@
 #include <stdio.h>
 main()
 {
-      int i = 3;
-      int j = 0;
-      int k;
-      
-      k = (i && j);
+      int i, j, k;
+
+      scanf("%d", &i);
+      scanf("%d", &j);
+      k = (i == 3);
       printf("%d\n", k);
       
-      k = (i || j);
-      printf("%d\n", k);
-      
-      k = !i;
+      k = (i == j);
       printf("%d\n", k);
 }

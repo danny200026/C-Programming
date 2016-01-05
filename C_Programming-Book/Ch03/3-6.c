@@ -1,13 +1,15 @@
 #include <stdio.h>
 main()
 {
-      int i;
-      int k;
+      int i, j, k;
       
       scanf("%d", &i);
-      k = i / 10;
+      scanf("%d", &j);
+      k = i % j;
       printf("%d\n", k);
 
-      k = i % 10;
+      scanf("%d", &i);
+      scanf("%d", &j);
+      k = i % j;
       printf("%d\n", k);      
 }

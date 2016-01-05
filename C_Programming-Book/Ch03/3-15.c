@@ -5,7 +5,9 @@ main()
       
       scanf("%d", &i);
       scanf("%d", &j);
-      if ((k = i) > 0 || (l = j) > 0)
+      k = i;
+      l = j;
+      if (k > 0 || l > 0)
       {
            printf("%d\n", k);
            printf("%d\n", l);  

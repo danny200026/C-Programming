@@ -5,13 +5,9 @@ main()
       
       scanf("%d", &i);
       scanf("%d", &j);
-      k = i / j;
-      printf("%d\n", k);
       
-      scanf("%d", &i);
-      scanf("%d", &j);
-      k = i / j;
+      k = i + j;
+      printf("%d\n", k);
+      k = i - j;
       printf("%d\n", k);
 }
-
-      
